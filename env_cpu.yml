@@ -1,0 +1,17 @@
+name: soft-comm-2
+channels:
+  - defaults
+dependencies:
+  - colorama
+  - keras
+  - numpy
+  - pillow
+  - pip
+  - python
+  - requests
+  - tensorflow
+  - pip:
+      - opencv-python
+      - pyqt5
+prefix: ./env/soft-comm-2
+

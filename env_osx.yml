@@ -1,0 +1,17 @@
+name: stefann-mac-dev
+channels:
+  - defaults
+dependencies:
+  - colorama
+  - keras
+  - numpy
+  - pillow
+  - pip
+  - python
+  - requests
+  - pip:
+      - tensorflow
+      - opencv-python
+      - opencv-contrib-python-headless
+      - pyqt5
+prefix: ./env/stefann-mac-dev
